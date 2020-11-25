@@ -50,6 +50,14 @@
   border: 1px solid hsl(248, 32%, 49%);
 }
 
+#myForm .onError {
+  border-color: hsl(0, 100%, 74%);
+  color: hsl(0, 100%, 74%);
+  background-image: url(./images/icon-error.svg);
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+}
+
 #myForm > div {
   margin: 15px;
 }

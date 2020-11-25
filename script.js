@@ -42,6 +42,8 @@ function validation() {
 }
 
 function giveErrorMessage(input, message) {
+  const inputField = input;
+  inputField.classList.add("onError");
   const inputDiv = input.parentElement;
   console.log(inputDiv);
   errorMsg = inputDiv.querySelector(".errorMsg");
@@ -50,6 +52,8 @@ function giveErrorMessage(input, message) {
 }
 
 function testSuccess(input) {
+  const inputField = input;
+  inputField.classList.remove("onError");
   console.log(`the input for ${input.getAttribute("id")} is ${input.value}`);
   const inputDiv = input.parentElement;
   errorMsg = inputDiv.querySelector(".errorMsg");
