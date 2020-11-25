@@ -54,7 +54,8 @@
   margin: 15px;
 }
 
-button {
+#myForm .button {
+  color: #ffffff;
   box-sizing: border-box;
   width: 100%;
   padding: 10px;
@@ -87,7 +88,8 @@ button {
 }
 
 .errorMsg {
-  
+  font-size: 1em;
+  color: hsl(0, 100%, 74%);
 }
 
 @media (max-width: 1024px) {
@@ -117,7 +119,7 @@ button {
     padding: 10px;
   }
 
-  button {
+  .button {
     padding: 15px;
     font-size: 1.2em;
   }
